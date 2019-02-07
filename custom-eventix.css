@@ -1,0 +1,87 @@
+/* START - STAP 0 - Pagina Algemeen */
+body {
+    background-image: url(https://neverlandoutdoor.nl/wp-content/uploads/2018/11/test-bg-gray.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+  }
+
+  h4, .h4 {
+      font-size: 14px;
+  }
+
+/* EINDE */
+
+/* START - STAP 1 TICKETS */
+#shop-tickets .event-title {
+      border: #67b2e7;
+      background: url('https://neverlandoutdoor.nl/wp-content/uploads/2019/02/background-tickets-eventix.jpg');
+      color: #fcba08;
+      margin-bottom: 0px;
+  }
+
+.app.ticket-selection .content .tickets {
+    background: #211e1b;
+}
+
+.app.ticket-selection .content .tickets .ticket {
+    padding: 1em 10px;
+    border-bottom: 1px solid #bca765;
+    list-style: none;
+    min-height: 3em;
+}
+
+/* Collapse */
+
+.app .panel-group .panel-heading .panel-title {
+    background: url('https://neverlandoutdoor.nl/wp-content/uploads/2019/02/background-tickets-eventix.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.app .panel-group .panel-heading {
+    padding: 0;
+    border: solid 0px;
+}
+
+.app .panel-body {
+    background: #211e1b;
+    border: solid 0px #211e1b;
+}
+
+.app .panel-group .panel-body {
+    background-color: #211e1b;
+    color: white;
+
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+        border-top: 0px solid;
+    }
+
+/* START - STAP 2 - Persoongegevens */
+.app.personal-details .content .control-label {
+    font-size: 14px;
+    padding-left: 15px;
+    color: #eaecef;
+    width: 100%;
+    }
+
+/* START - STAP 3 - payment */
+
+.text-muted {
+    color: #999;
+}
+
+    .fancy #content .radio label {
+        padding-left: 30px;
+        color: #fff;
+    }
+
+    #shop-summary .transaction-cost {
+        color: #999;
+        font-size: 0.8em;
+    }
